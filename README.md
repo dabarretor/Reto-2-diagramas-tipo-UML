@@ -1,7 +1,7 @@
 # Reto-2-diagramas-tipo-UML
 Elija un problema de la vida real (sistema de gestión de biblioteca, negocio de compra-venta, automóvil, etc) que se pueda modelar a través de objetos y clases. Plantee las relaciones de clases, composiciones, propiedades y comportamientos del sistema en uno más diagramas tipo UML.
 
-Respuesta: El problema se centrara en un sistema de compra-venta en una tienda de calzado, a paritr de un diagrama UML de clases elaborado usando Mermaid.
+Respuesta: El problema se centrará en un sistema de compra-venta en una tienda de calzado, representado mediante un diagrama UML de clases elaborado usando Mermaid.
 
 ## Diagrama de clases
 
