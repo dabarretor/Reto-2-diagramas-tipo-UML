@@ -13,6 +13,7 @@ Tienda "1" *-- "0..*" Producto
 
 class Tienda {
     nombre : String
+    tamaño : String
     venderProducto()
     actualizarMercancia()
 }
