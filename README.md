@@ -49,3 +49,4 @@ Producto <|-- Botas
 Producto <|-- Tacones
 Producto <|-- Zapatos
 ```
+Se realizo este problema para identificar el proceso que se hace al momento de comprar un producto, en especial en una tienda de calzados, el cliente puede no comprar nada o comprar 1 o mas calzados, siendo que el produecto  puede ser unos tenis, tacones, botas o zapatos, siendo estos productos herencia de la clase producto, y la tienda se compone de productos que tratan de vender al cliente, y si se logra vender, automaticamente la tienda actualiza la mercancia.
