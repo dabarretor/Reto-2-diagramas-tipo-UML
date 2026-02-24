@@ -15,7 +15,7 @@ class Tienda {
     nombre : String
     tamaño : String
     venderProducto()
-    actualizarMercancia()
+    actualizarMercancía()
 }
 
 class Cliente {
@@ -50,14 +50,14 @@ Producto <|-- Botas
 Producto <|-- Tacones
 Producto <|-- Zapatos
 ```
-Se realizó este problema para identificar el proceso que se hace al momento de comprar un producto, en especial en una tienda de calzados, el cliente puede no comprar nada o comprar 1 o mas calzados, siendo que el producto  puede ser unos tenis, tacones, botas o zapatos, siendo estos productos herencia de la clase producto, y la tienda se compone de productos que tratan de vender al cliente, y si se logra vender, automaticamente la tienda actualiza la mercancia.
+Se realizó este problema para identificar el proceso que se hace al momento de comprar un producto, en especial en una tienda de calzados, el cliente puede no comprar nada o comprar 1 o mas calzados, siendo que el producto  puede ser unos tenis, tacones, botas o zapatos, siendo estos productos herencia de la clase producto, y la tienda se compone de productos que tratan de vender al cliente, y si se logra vender, automáticamente la tienda actualiza la mercancía.
 
 # Conceptos usados
 
-**-Asociación:** Un cliente interactua con los productos, pudiendo comprar ni uno hasta multiples articulos ( por eso se usa el 0..*).
+**-Asociación:** Un cliente interactúa con los productos, pudiendo comprar desde ninguno hasta múltiples artículos (por eso se usa el 0..*).
 
-**-Herencia:** Los artículos específicos (Tenis, Botas, Tacones, Zapatos) heredan los atributos base de la clase padre Producto.
+**-Herencia:** Los artículos específicos (tenis, botas, tacones y zapatos) heredan los atributos base de la clase padre llamado Producto.
 
-**-Composición:** La Tienda se compone de un inventario de múltiples articulos (1 a 0..*).
+**-Composición:** La tienda se compone de un inventario de múltiples articulos (1 a 0..*).
 
 **-Comportamiento:** El sistema define métodos clave, como la capacidad del cliente para comprar, y el de la tienda para actualizar su mercancía automáticamente tras una venta.
