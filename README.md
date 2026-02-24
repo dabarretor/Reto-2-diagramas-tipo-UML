@@ -54,10 +54,10 @@ Se realizó este problema para identificar el proceso que se hace al momento de 
 
 # Conceptos usados
 
--Asociación: Un cliente interactua con los productos, pudiendo comprar ni uno hasta multiples articulos ( por eso se usa el 0..*).
+**-Asociación:** Un cliente interactua con los productos, pudiendo comprar ni uno hasta multiples articulos ( por eso se usa el 0..*).
 
--Herencia: Los artículos específicos (Tenis, Botas, Tacones, Zapatos) heredan los atributos base de la clase padre Producto.
+**-Herencia:** Los artículos específicos (Tenis, Botas, Tacones, Zapatos) heredan los atributos base de la clase padre Producto.
 
--Composición: La Tienda se compone de un inventario de múltiples articulos (1 a 0..*).
+**-Composición:** La Tienda se compone de un inventario de múltiples articulos (1 a 0..*).
 
--Comportamiento: El sistema define métodos clave, como la capacidad del cliente para comprar, y el de la tienda para actualizar su mercancía automáticamente tras una venta.
+**-Comportamiento:** El sistema define métodos clave, como la capacidad del cliente para comprar, y el de la tienda para actualizar su mercancía automáticamente tras una venta.
