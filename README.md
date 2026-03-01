@@ -12,37 +12,37 @@ Cliente "1" --> "0..*" Producto : compra
 Tienda "1" *-- "0..*" Producto
 
 class Tienda {
-    nombre : String
-    tamaño : String
-    venderProducto()
-    actualizarMercancía()
+    +nombre : String
+    +tamaño : String
+    +venderProducto()
+    +actualizarMercancía()
 }
 
 class Cliente {
-    nombre : String
-    verProductos()
-    mirarPrecio()
-    comprarProducto()
+    +nombre : String
+    +verProductos()
+    +mirarPrecio()
+    +comprarProducto()
 }
 
 class Producto {
-    nombre : String
-    precio : int
-    talla : int
-    color : String
-    actualizarPrecio()
+    +nombre : String
+    +precio : int
+    +talla : int
+    +color : String
+    +actualizarPrecio()
 }
 
 class Tenis {
-    tipoSuela : String
+    +tipoSuela : String
 }
 
 class Tacones {
-    alturaTacon : int
+    +alturaTacon : int
 }
 
 class Botas {
-    tipoMaterial : String
+    +tipoMaterial : String
 }
 
 Producto <|-- Tenis
